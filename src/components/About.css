@@ -1,0 +1,53 @@
+/* Container for the About page */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  
+  /* Title */
+  .about-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2.5rem;
+  }
+  
+  /* Content section */
+  .about-content {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  /* Individual section */
+  .about-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section title */
+  .about-section h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  /* Section text */
+  .about-section p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .about-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-section a:hover {
+    text-decoration: underline;
+  }
+  

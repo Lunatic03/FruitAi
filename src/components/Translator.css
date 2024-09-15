@@ -1,0 +1,99 @@
+/* Container for the translator component */
+.translator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  /* Title */
+  .translator-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form for text input and dropdowns */
+  .translator-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Group for dropdowns */
+  .translator-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .translator-input-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .translator-input-group:last-child {
+    margin-right: 0;
+  }
+  
+  .translator-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .translator-input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Textarea for input text */
+  .translator-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  /* Translate button */
+  .translator-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .translator-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result display */
+  .translator-result {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .translator-result h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .translator-result p {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,37 @@
+/* Container for the FAQ section */
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the boxes */
+    padding: 20px 60px; /* Increased padding on both sides */
+    box-sizing: border-box; /* Ensure padding does not affect the width */
+  }
+  
+  /* Individual FAQ box */
+  .faq-box {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 40px); /* Adjust width to account for increased padding */
+    height: 100px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Image within the FAQ box */
+  .faq-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  /* Text within the FAQ box */
+  .faq-text {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  

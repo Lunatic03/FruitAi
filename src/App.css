@@ -1,0 +1,39 @@
+/* Styling for the navigation bar */
+body{
+  background: rgb(250,43,242);
+  background: linear-gradient(90deg, rgba(250,43,242,1) 2%, rgba(255,138,251,1) 40%, rgba(177,248,255,1) 60%, rgba(72,237,254,1) 94%); /* Darker gradient from light pink to light blue */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 10px 20px;
+  color: white;
+}
+
+.site-name h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
